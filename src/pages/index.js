@@ -23,11 +23,12 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+            Web developer. Community enthusiast. Organizer of meetups. International public speaker.
+            Trainer. Author of books. <br /> Google developer expert in web technologies.
+            <br/>
+            When I'm not coding I make music, street photography and vegan food.
           </p>
+
           <div className="social-icons">
             {config.socialLinks.map(social => {
               const { icon, url } = social;
@@ -48,7 +49,7 @@ const IndexPage = () => (
         id="experience"
       >
         <div className="w-100">
-          <h2 className="mb-5">Experience</h2>
+          <h2 className="mb-5">Talks</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">

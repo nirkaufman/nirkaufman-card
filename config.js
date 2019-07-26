@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Resume', // <title>
-  manifestName: 'Resume',
+  siteTitle: 'nir.life', // <title>
+  manifestName: 'Nir Kaufman',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
@@ -8,32 +8,31 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-resume/`, // This path is subpath of your hosting https://domain/portfolio
-  firstName: 'Anubhav',
-  lastName: 'Srivastava',
+  firstName: 'Nir',
+  lastName: 'Kaufman',
   // social
   socialLinks: [
     {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      icon: 'fa-twitter',
+      name: 'Twitter',
+      url: 'https://twitter.com/nirkaufman',
     },
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
-      url: 'https://linkedin.com/in/theanubhav/',
+      url: 'https://linkedin.com/in/nirkaufman/',
     },
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      icon: 'fa-github',
+      name: 'Github',
+      url: 'https://github.com/nirkaufman',
     },
     {
       icon: 'fa-facebook-f',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://facebook.com/nirkaufman',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  email: 'nirkaufman@gmail.com',
+  address: 'Greater New York City Area',
 };
