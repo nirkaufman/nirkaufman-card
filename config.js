@@ -23,6 +23,16 @@ module.exports = {
       url: 'https://linkedin.com/in/nirkaufman/',
     },
     {
+      icon: 'fa-youtube',
+      name: 'YouTube',
+      url: 'https://www.youtube.com/playlist?list=PLfZsWIHsTcfv7QvuPpbpgLOeEWB4L97TT',
+    },
+    {
+      icon: 'fa-slideshare',
+      name: 'SlideShare',
+      url: 'https://www.slideshare.net/nirkaufman',
+    },
+    {
       icon: 'fa-github',
       name: 'Github',
       url: 'https://github.com/nirkaufman',
