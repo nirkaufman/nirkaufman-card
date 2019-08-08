@@ -27,7 +27,7 @@ const IndexPage = () => (
           </div>
           <p className="lead mb-5">
             Web developer. Community enthusiast. Organizer of meetups. International public speaker.
-            Trainer. Author of books. <br/> Google developer expert in web technologies.
+            <br/>Trainer. Author of books. Google developer expert in web technologies.
             <br/>
             When I'm not coding I make music, and vegan food.
           </p>
@@ -53,7 +53,7 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h2 className="mb-5">Upcoming Events</h2>
-          {talks.map(talk => <SingleTalk key={talk.id} talk={talk}/>)}
+          {talks.reverse().map(talk => <SingleTalk key={talk.id} talk={talk}/>)}
         </div>
       </section>
 
