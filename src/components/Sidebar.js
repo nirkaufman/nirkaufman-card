@@ -11,8 +11,8 @@ export class Sidebar extends Component {
     this.state = {
       tabs: [
         { content: 'About', href: 'about' },
-        { content: 'Talks', href: 'talks' },
-        { content: 'Other', href: 'other' }
+        { content: 'Events', href: 'talks' },
+        // { content: 'Other', href: 'other' }
       ],
     };
   }

@@ -5,9 +5,12 @@ import Layout from '../components/Layout';
 import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
+import { talks } from '../content/talks';
+import SingleTalk from '../components/SingleTalk';
+
 const IndexPage = () => (
   <Layout>
-    <Sidebar />
+    <Sidebar/>
     <div className="container-fluid p-0">
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
@@ -24,9 +27,9 @@ const IndexPage = () => (
           </div>
           <p className="lead mb-5">
             Web developer. Community enthusiast. Organizer of meetups. International public speaker.
-            Trainer. Author of books. <br /> Google developer expert in web technologies.
+            Trainer. Author of books. <br/> Google developer expert in web technologies.
             <br/>
-            When I'm not coding I make music, street photography and vegan food.
+            When I'm not coding I make music, and vegan food.
           </p>
 
           <div className="social-icons">
@@ -42,120 +45,53 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <hr className="m-0" />
+      <hr className="m-0"/>
 
       <section
         className="resume-section p-3 p-lg-5 d-flex justify-content-center"
         id="talks"
       >
         <div className="w-100">
-          <h2 className="mb-5">Talks</h2>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
-              <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
-              <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
-            </div>
-          </div>
+          <h2 className="mb-5">Upcoming Events</h2>
+          {talks.map(talk => <SingleTalk key={talk.id} talk={talk}/>)}
         </div>
       </section>
 
-      <hr className="m-0" />
+      <hr className="m-0"/>
 
-      <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="other"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Education</h2>
+      {/*<section*/}
+      {/*  className="resume-section p-3 p-lg-5 d-flex align-items-center"*/}
+      {/*  id="other"*/}
+      {/*>*/}
+      {/*  <div className="w-100">*/}
+      {/*    <h2 className="mb-5">Education</h2>*/}
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
-            </div>
-          </div>
+      {/*    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">*/}
+      {/*      <div className="resume-content">*/}
+      {/*        <h3 className="mb-0">University of Colorado Boulder</h3>*/}
+      {/*        <div className="subheading mb-3">Bachelor of Science</div>*/}
+      {/*        <div>Computer Science - Web Development Track</div>*/}
+      {/*        <p>GPA: 3.23</p>*/}
+      {/*      </div>*/}
+      {/*      <div className="resume-date text-md-right">*/}
+      {/*        <span className="text-primary">August 2006 - May 2010</span>*/}
+      {/*      </div>*/}
+      {/*    </div>*/}
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">James Buchanan High School</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/*    <div className="resume-item d-flex flex-column flex-md-row justify-content-between">*/}
+      {/*      <div className="resume-content">*/}
+      {/*        <h3 className="mb-0">James Buchanan High School</h3>*/}
+      {/*        <div className="subheading mb-3">Technology Magnet Program</div>*/}
+      {/*        <p>GPA: 3.56</p>*/}
+      {/*      </div>*/}
+      {/*      <div className="resume-date text-md-right">*/}
+      {/*        <span className="text-primary">August 2002 - May 2006</span>*/}
+      {/*      </div>*/}
+      {/*    </div>*/}
+      {/*  </div>*/}
+      {/*</section>*/}
 
-      <hr className="m-0" />
+      {/*<hr className="m-0"/>*/}
 
     </div>
   </Layout>
