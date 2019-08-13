@@ -6,8 +6,8 @@ import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
 import { talks } from '../content/talks';
-import SingleTalk from '../components/talks/SingleTalk';
-import TalkList from '../components/talks/TalkList';
+import SingleTalk from '../components/SingleTalk';
+import TalkList from './TalkList';
 
 const IndexPage = () => (
   <Layout>
@@ -46,15 +46,8 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <hr className="m-0"/>
 
-      <section
-        className="resume-section p-3 p-lg-5 d-flex justify-content-center"
-        id="talks"
-      >
-        <TalkList/>
-      </section>
-
+      <TalkList/>
       <hr className="m-0"/>
 
       {/*<section*/}

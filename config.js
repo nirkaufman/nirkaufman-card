@@ -36,12 +36,7 @@ module.exports = {
       icon: 'fa-github',
       name: 'Github',
       url: 'https://github.com/nirkaufman',
-    },
-    {
-      icon: 'fa-facebook-f',
-      name: 'Facebook',
-      url: 'https://facebook.com/nirkaufman',
-    },
+    }
   ],
   email: 'nirkaufman@gmail.com',
   address: 'Greater New York City Area',
