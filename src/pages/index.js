@@ -6,7 +6,8 @@ import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
 import { talks } from '../content/talks';
-import SingleTalk from '../components/SingleTalk';
+import SingleTalk from '../components/talks/SingleTalk';
+import TalkList from '../components/talks/TalkList';
 
 const IndexPage = () => (
   <Layout>
@@ -51,10 +52,7 @@ const IndexPage = () => (
         className="resume-section p-3 p-lg-5 d-flex justify-content-center"
         id="talks"
       >
-        <div className="w-100">
-          <h2 className="mb-5">Upcoming Events</h2>
-          {talks.reverse().map(talk => <SingleTalk key={talk.id} talk={talk}/>)}
-        </div>
+        <TalkList/>
       </section>
 
       <hr className="m-0"/>
