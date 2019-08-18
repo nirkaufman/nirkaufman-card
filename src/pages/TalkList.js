@@ -21,6 +21,7 @@ const TalkList = () => {
         </div>
       </section>
     </>
+
   );
 };
 
