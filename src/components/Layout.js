@@ -24,7 +24,7 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: "Where I am, and what I'm doing" },
+                { name: 'description', content: "Where to meet me, How to keep in touch with me, What I'm currently doing, and other stuff." },
                 { name: 'keywords', content: 'Nir Kaufman, JavaScript' },
               ]}
             >
