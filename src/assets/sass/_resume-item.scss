@@ -9,6 +9,16 @@ section.resume-section {
     }
   }
 }
+
+pre {
+  padding: 25px 15px;
+  margin-top: 10px;
+  border-left-color: #6f42c1;
+  border-left-width: 5px;
+  border-left-style: solid;
+  background-color: #ededed;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
