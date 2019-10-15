@@ -1,6 +1,16 @@
 export const talks = [
   {
-    title: '[MasterClass] React Hooks - A Deep Dive\n',
+    title: '[MasterClass] Progressive Web Applications - A Practical Guide',
+    event: 'ReactNYC',
+    location: 'New York City, New York, USA',
+    date: 'October, 17, 2019',
+    abstract: `We will get a solid understanding and knowledge of the process and technologies involved in creating a modern web app, as well as practical tools and techniques. By the end of the session, we will deploy our application on a public server and install it on our mobile device.
+`,
+    link: 'https://www.meetup.com/ReactNYC/events/264719806/',
+  },
+
+  {
+    title: '[MasterClass] React Hooks - A Deep Dive',
     event: 'React & React Native - Israel',
     location: 'Tel Aviv, Israel',
     date: 'September, 26, 2019',
@@ -23,7 +33,7 @@ export const talks = [
                 `,
     link: 'https://www.meetup.com/ReactNYC/events/263332786/',
   },
-{
+  {
     title: 'Angular & WordPress: Practical guide to headless CMS',
     event: 'International JavaScript Conference (IJS)',
     location: 'Munich, Germany',
