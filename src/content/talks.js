@@ -1,11 +1,30 @@
 export const talks = [
   {
+    title: 'Unleash the power of Angular CLI Builders',
+    event: 'NG Poland',
+    location: 'Warsaw, Poland',
+    date: 'November, 21, 2019',
+    abstract: `The Angular CLI is already a powerful tool that automates our development process for maximum productivity. During this session, we will take a step forward and learn why and how to extend the Angular CLI to perform a complexed, customized series of operations on our project with CLI Builders. Get ready for a productivity boost!`,
+    link: 'https://ng-poland.pl/',
+  },
+
+  {
+    title: 'Become a JavaScript Electronic Music Producer',
+    event: 'JS Poland',
+    location: 'Warsaw, Poland',
+    date: 'November, 22, 2019',
+    abstract: `Let's dive into the core concepts of electronic music production and find out how we can leverage our Angular coding skills to create music.During this talk, I will show you how to use your code as a music instrument. Are you ready to take the main stage?
+`,
+    link: 'https://js-poland.pl/',
+  },
+
+  {
     title: 'Progressive Web Applications - A Practical Guide',
     event: 'Frontrunners React',
     location: 'Washington, DC, USA',
     date: 'December, 06, 2019',
     abstract: `Let's explore React inside-out! Join me to a fun live coding session where we take a concept and break it into peaces until we have a total understanding of what's going on.`,
-    link: 'https://www.meetup.com/ReactNYC/events/264719806/',
+    link: 'http://nationjs.com/',
   },
   {
     title: '[MasterClass] Progressive Web Applications - A Practical Guide',
