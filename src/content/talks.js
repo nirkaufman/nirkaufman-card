@@ -4,8 +4,7 @@ export const talks = [
     event: 'Frontrunners React',
     location: 'Washington, DC, USA',
     date: 'December, 06, 2019',
-    abstract: `Let's explore React inside-out! Join me to a fun live coding session where we take a concept and break it into peaces until we have a total understanding of what's going on.`
-`,
+    abstract: `Let's explore React inside-out! Join me to a fun live coding session where we take a concept and break it into peaces until we have a total understanding of what's going on.`,
     link: 'https://www.meetup.com/ReactNYC/events/264719806/',
   },
   {
