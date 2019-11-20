@@ -1,5 +1,14 @@
 export const talks = [
   {
+    title: 'Progressive Web Applications - A Practical Guide',
+    event: 'Frontrunners React',
+    location: 'Washington, DC, USA',
+    date: 'December, 06, 2019',
+    abstract: `Let's explore React inside-out! Join me to a fun live coding session where we take a concept and break it into peaces until we have a total understanding of what's going on.`
+`,
+    link: 'https://www.meetup.com/ReactNYC/events/264719806/',
+  },
+  {
     title: '[MasterClass] Progressive Web Applications - A Practical Guide',
     event: 'ReactNYC',
     location: 'New York City, New York, USA',
@@ -17,7 +26,7 @@ export const talks = [
     abstract: `Master React hooks API - From the inside-out.
               We will start by building a small UI library from scratch, that implements a similar API to create components and hooks (A tiny React clone :).
               We will use vanilla JavaScript, no dependencies.
-              Once we have done with his, we will explore React hooks in depth by a series of practical examples.             
+              Once we have done with his, we will explore React hooks in depth by a series of practical examples.
               By the end of this session, you will know everything about Hooks from the inside-out.
 `,
     link: 'https://www.meetup.com/React-IL/events/263993642',
@@ -28,7 +37,7 @@ export const talks = [
     location: 'New York City, New York, USA',
     date: 'August 21, 2019',
     abstract: `During this MasterClass, we will explore practical, real-world patterns and techniques for state management in React - both local and global.
-                By the end of this session, you will know how to use the new react-redux hooks API the right way, how to work with React built-in 
+                By the end of this session, you will know how to use the new react-redux hooks API the right way, how to work with React built-in
                 state management features - Context and component state - and how to choose the right pattern for the job.
                 `,
     link: 'https://www.meetup.com/ReactNYC/events/263332786/',
@@ -38,7 +47,7 @@ export const talks = [
     event: 'International JavaScript Conference (IJS)',
     location: 'Munich, Germany',
     date: 'October 23, 2019',
-    abstract: `WordPress is still the most popular and powerful content management system with a massive, robust community behind it. In this talk, 
+    abstract: `WordPress is still the most popular and powerful content management system with a massive, robust community behind it. In this talk,
                I’ll show you how to use WordPress as a headless CMS, and build a modern and performant front-end for it using Angular.`,
     link: 'https://javascript-conference.com/angular/angular-wordpress-practical-guide-to-headless-cms/',
   },
@@ -48,10 +57,10 @@ export const talks = [
     event: 'International JavaScript Conference (IJS)',
     location: 'Munich, Germany',
     date: 'October 22, 2019',
-    abstract: `Redux is a modern, lean, front-end library for state management based on good old 
-              messaging design patterns that have been used on the server side for many years. By choosing 
-              it as your state management solution, you have to change your state of mind and start programming with 
-              events. Through this session, we will learn practical advanced patterns and techniques for 
+    abstract: `Redux is a modern, lean, front-end library for state management based on good old
+              messaging design patterns that have been used on the server side for many years. By choosing
+              it as your state management solution, you have to change your state of mind and start programming with
+              events. Through this session, we will learn practical advanced patterns and techniques for
               solving real-world state management problems using vanilla JavaScript and help from Redux.`,
     link: 'https://javascript-conference.com/react/real-world-advanced-redux-patterns/',
   },
@@ -79,8 +88,8 @@ export const talks = [
     event: 'AngularNYC',
     location: 'New York City, New York, USA',
     date: 'August 20, 2019',
-    abstract: `In this talk, I will g 
-               library from scratch using the Angular CLI. You will learn how to set up a 
+    abstract: `In this talk, I will g
+               library from scratch using the Angular CLI. You will learn how to set up a
                project correctly, how to configure your library, and how to generate a sample project to test it`,
     link: 'https://www.meetup.com/AngularNYC/events/263176736/',
   },
@@ -90,8 +99,8 @@ export const talks = [
     event: 'GDG Rochester Devfest 2019',
     location: 'Rochester, New York, USA',
     date: 'September 7, 2019',
-    abstract: `In this session, we will dive into the technology, tools, patterns, 
-              and techniques for building progressive web applications. By the end of this session, 
+    abstract: `In this session, we will dive into the technology, tools, patterns,
+              and techniques for building progressive web applications. By the end of this session,
               you will know how to leverage modern web technologies that will take your user experience to the next step.`,
     link: 'https://www.explara.com/e/devfest',
   },
