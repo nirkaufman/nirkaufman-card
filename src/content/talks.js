@@ -13,13 +13,13 @@ export const talks = [
     event: 'JS Poland',
     location: 'Warsaw, Poland',
     date: 'November, 22, 2019',
-    abstract: `Let's dive into the core concepts of electronic music production and find out how we can leverage our Angular coding skills to create music.During this talk, I will show you how to use your code as a music instrument. Are you ready to take the main stage?
+    abstract: `Let's dive into the core concepts of electronic music production and find out how we can leverage our coding skills to create music.During this talk, I will show you how to use your code as a music instrument. Are you ready to take the main stage?
 `,
     link: 'https://js-poland.pl/',
   },
 
   {
-    title: 'Progressive Web Applications - A Practical Guide',
+    title: 'Get inspired with React',
     event: 'Frontrunners React',
     location: 'Washington, DC, USA',
     date: 'December, 06, 2019',
