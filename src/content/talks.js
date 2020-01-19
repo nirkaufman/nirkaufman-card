@@ -1,11 +1,20 @@
 export const talks = [
   {
-    title: 'Unleash the power of Angular CLI Builders',
-    event: 'NG Poland',
+    title: 'Extendable Shared Components Techniques',
+    event: 'AngularNYC',
     location: 'Warsaw, Poland',
     date: 'November, 21, 2019',
     abstract: `The Angular CLI is already a powerful tool that automates our development process for maximum productivity. During this session, we will take a step forward and learn why and how to extend the Angular CLI to perform a complexed, customized series of operations on our project with CLI Builders. Get ready for a productivity boost!`,
     link: 'https://ng-poland.pl/',
+  },
+
+  {
+    title: 'Unleash the power of Angular CLI Builders',
+    event: 'NG Poland',
+    location: 'New York City, New York, USA',
+    date: 'January, 21, 2020',
+    abstract: `Let's revisit conventional and less-known techniques for building reusable, extendable Angular UI components with content projection, dynamic templates, and declarative directives.`,
+    link: 'https://www.meetup.com/AngularNYC/events/267051060/',
   },
 
   {
