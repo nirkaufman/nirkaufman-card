@@ -1,5 +1,21 @@
 export const talks = [
   {
+    title: 'Become a JavaScript Electronic Music Producer',
+    event: 'International JavaScript Conference (IJS)',
+    location: 'London, UK',
+    date: 'April, 21, 2020',
+    abstract: 'Let’s dive into the core concepts of electronic music production and find out how we can leverage our JavaScript coding skills to create music. During this talk, I will show you how to use your code as a music instrument. Are you ready to take the main stage?',
+    link: 'https://javascript-conference.com/london/program-london/',
+  },
+  {
+    title: 'React Hooks - A deep dive',
+    event: 'International JavaScript Conference (IJS)',
+    location: 'London, UK',
+    date: 'April, 20, 2020',
+    abstract: 'During this session, we will master the API and usage of hooks by implementing a lightweight version of React from scratch, using nothing but vanilla JavaScript. Once we establish a solid understating of what’s going on under the hood, we will learn how to use both built-in and custom hooks in a series of practical use cases.',
+    link: 'https://javascript-conference.com/london/program-london/',
+  },
+  {
     title: 'Unleash the power of Angular CLI Builders',
     event: 'NG Poland',
     location: 'Warsaw, Poland',
