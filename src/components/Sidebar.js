@@ -11,9 +11,9 @@ export class Sidebar extends Component {
     this.state = {
       tabs: [
         { content: 'About Me', href: 'about' },
-        { content: 'Upcoming Events', href: 'talks' },
+        { content: 'Talks', href: 'talks' },
+        { content: 'Workshops', href: 'workshops'},
         { content: 'Snippets', href: 'snippets' },
-        // { content: 'Other', href: 'other' }
       ],
     };
   }
@@ -58,7 +58,7 @@ export class Sidebar extends Component {
             {tabs.map((tab, i) => {
               const { href, content } = tab;
               return (
-                <li className="nav-item" key={href}>
+                <li className="nav-item text-left" key={href}>
                   <Scroll type="id" element={href}>
                     <a className="nav-link" href={`#${href}`}>
                       {content}
