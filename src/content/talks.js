@@ -1,5 +1,13 @@
 export const talks = [
   {
+    title: 'Up & Running with Flutter - Mini workshop',
+    event: 'Negev Web Dev',
+    location: 'Beer-Sheva, Israel',
+    date: 'March, 23, 2020',
+    abstract: 'In this workshop, we will cover the basics of cross-platform development with Flutter and Dart by building an app from scratch.',
+    link: 'https://www.meetup.com/NegevDev/events/268795258/',
+  },
+  {
     title: 'Advanced Component & Directives in Angular - Special Workshop',
     event: 'Angular-IL',
     location: 'Tel-Aviv, Israel',
