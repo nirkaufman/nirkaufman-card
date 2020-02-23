@@ -1,5 +1,13 @@
 export const talks = [
   {
+    title: 'Advanced Component & Directives in Angular - Special Workshop',
+    event: 'Angular-IL',
+    location: 'Tel-Aviv, Israel',
+    date: 'March, 25, 2020',
+    abstract: 'we will learn how to build a reusable, extendable, dynamic component in Angular by implanting real-world features from scratch - leveraging Angular\'s rich API and features.',
+    link: 'https://www.meetup.com/Angular-IL/events/268927112/',
+  },
+  {
     title: 'Become a JavaScript Electronic Music Producer',
     event: 'International JavaScript Conference (IJS)',
     location: 'London, UK',

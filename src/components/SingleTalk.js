@@ -8,7 +8,7 @@ const SingleTalk = ({talk}) => {
 
         <div className="subheading mb-3">{talk.event} • <a href={`https://www.google.com/maps/place/${talk.location.replace(" ","+")}`} target="_blank">{talk.location}</a></div>
         <p>{talk.abstract}</p>
-        <a href={talk.link} target="_blank">Event details on {talk.event} website</a>
+        <a href={talk.link} target="_blank">Event details on {talk.event}</a>
       </div>
       <div className="resume-date text-md-right">
         <span className="text-primary">{talk.date}</span>

@@ -14,7 +14,7 @@ const IndexPage = () => (
     <Sidebar/>
     <div className="container-fluid p-0">
       <AboutMe/>
-      <TalkList id={'talks'} title={'Upcoming Events'} events={talks}/>
+      <TalkList id={'talks'} title={'Upcoming Talks'} events={talks}/>
       <TalkList id={'workshops'} title={'Upcoming Workshops'} events={workshops}/>
       <Quickies/>
     </div>
