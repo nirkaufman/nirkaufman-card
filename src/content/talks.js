@@ -1,5 +1,21 @@
 export const talks = [
   {
+    title: 'View Manipulation in Depth - Live broadcast',
+    event: 'AngularNYC',
+    location: 'Live broadcast - online event',
+    date: 'April, 01, 2020',
+    abstract: 'When working with Angular, we never manipulate the DOM directly. Angular provides us a thick layer of abstraction with a clear interface to manipulate view elements, which can translate into DOM manipulation - or any other runtime platform.',
+    link: 'https://www.meetup.com/AngularNYC/events/269654386/',
+  },
+  {
+    title: 'Mastering Angular Views - Live broadcast',
+    event: 'Angular Israel',
+    location: 'Online',
+    date: 'March, 29, 2020',
+    abstract: 'In this special meetup, I will dive into Angular\'s view layer and explain some of the core concepts - together with practical techniques.',
+    link: 'https://www.meetup.com/Angular-IL/events/269648822/',
+  },
+  {
     title: 'Up & Running with Flutter - Mini workshop',
     event: 'Negev Web Dev',
     location: 'Beer-Sheva, Israel',
@@ -16,7 +32,7 @@ export const talks = [
     link: 'https://www.meetup.com/Angular-IL/events/268927112/',
   },
   {
-    title: 'Become a JavaScript Electronic Music Producer',
+    title: 'Become a JavaScript Electronic Music Producer - Live broadcast',
     event: 'International JavaScript Conference (IJS)',
     location: 'London, UK',
     date: 'April, 21, 2020',
